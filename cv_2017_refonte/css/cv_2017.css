@@ -1,8 +1,3 @@
-.menu {
-  height: 40px;
-  background-color: black;
-  opacity: 0.5; }
-
 .bouton {
   height: 40px;
   color: white;
@@ -24,7 +19,7 @@
 
 .photo {
   position: relative;
-  background-image: url("../media/IMG_0011.png");
+  background-image: url("../media/IMG_0011.jpeg");
   background-size: 80%;
   background-repeat: no-repeat;
   width: 500px;
@@ -104,8 +99,42 @@
 #interets {
   padding-top: 100px; }
 
+.footer {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .bouton {
+    opacity: 1;
+    background-color: #5682D9;
+    color: white;
+    height: 70px; } }
+@media screen and (max-width: 767px) {
+  .liste {
+    width: 200px;
+    font-size: 30px; } }
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 30px;
+    height: 30px; } }
 @media screen and (max-width: 767px) {
   .navbar-fixed-top {
     position: relative; } }
+@media screen and (max-width: 767px) {
+  .deroulant {
+    display: none; } }
+@media screen and (max-width: 767px) {
+  #competences {
+    position: relative;
+    background-image: url("../media/IMG_0011.jpeg"); } }
+@media screen and (max-width: 767px) {
+  a {
+    color: white; } }
+@media screen and (max-width: 767px) {
+  .titre {
+    font-size: 20px;
+    padding-top: 10px; } }
+@media screen and (max-width: 767px) {
+  .footer {
+    display: block; } }
 
 /*# sourceMappingURL=cv_2017.css.map */
