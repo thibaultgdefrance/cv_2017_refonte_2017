@@ -1,3 +1,9 @@
+body {
+  overflow: hidden; }
+
+a {
+  color: white; }
+
 .bouton {
   height: 40px;
   color: white;
@@ -111,7 +117,7 @@
 @media screen and (max-width: 767px) {
   .liste {
     width: 200px;
-    font-size: 30px; } }
+    font-size: 20px; } }
 @media screen and (max-width: 767px) {
   .logo {
     width: 30px;
@@ -125,8 +131,8 @@
 @media screen and (max-width: 767px) {
   #competences {
     position: relative;
-    background-image: url("../media/IMG_0011.jpeg"); } }
-@media screen and (max-width: 767px) {
+    background-image: url("../media/stardust.png"); } }
+@media screen and (pxmax-width: 767px) {
   a {
     color: white; } }
 @media screen and (max-width: 767px) {
@@ -136,5 +142,16 @@
 @media screen and (max-width: 767px) {
   .footer {
     display: block; } }
+@media screen and (max-width: 767px) {
+  #info {
+    font-size: 30px; } }
+@media screen and (max-width: 767px) {
+  .liste {
+    background-image: url("../media/stardust.png"); } }
+@media screen and (max-width: 767px) {
+  .passion {
+    font-size: 25px;
+    background-image: url("../media/stardust.png");
+    color: white; } }
 
 /*# sourceMappingURL=cv_2017.css.map */
