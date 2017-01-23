@@ -139,6 +139,9 @@ a {
   .footer {
     display: block; } }
 @media screen and (max-width: 767px) {
+  .info {
+    margin-top: 100px; } }
+@media screen and (max-width: 767px) {
   .liste {
     background-image: url("../media/stardust.png");
     margin: 0px; } }
